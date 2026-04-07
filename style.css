@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --bg-top: #0f172a;
+    --bg-bottom: #1e1b4b;
+    --card-bg: rgba(255, 255, 255, 0.06);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --accent: #f59e0b;        /* warm amber */
+    --accent-light: #fde68a;
+    --text: #f1f5f9;
+    --text-muted: #94a3b8;
+    --max-width: 780px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background: linear-gradient(145deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 24px;
+    flex: 1;
+}
+
+/* ─── Header ─── */
+header {
+    padding: 60px 0 20px;
+    text-align: center;
+}
+
+.logo-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, var(--accent), #ef4444);
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 32px rgba(245, 158, 11, 0.3);
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    background: linear-gradient(135deg, var(--accent-light), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+}
+
+header h2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-muted);
+    letter-spacing: 0.02em;
+}
+
+/* ─── Main Content ─── */
+main {
+    padding: 40px 0 60px;
+}
+
+.content-box {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: 40px 36px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+}
+
+.content-box p {
+    font-size: 16px;
+    color: var(--text-muted);
+    margin-bottom: 0;
+    line-height: 1.75;
+}
+
+.content-box p strong {
+    color: var(--text);
+}
+
+/* ─── Section Divider ─── */
+.divider {
+    border: none;
+    border-top: 1px solid var(--card-border);
+    margin: 32px 0;
+}
+
+/* ─── Section Headings ─── */
+.section-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    margin-bottom: 12px;
+}
+
+.section-label::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+}
+
+/* ─── Contact link ─── */
+.email-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, var(--accent), #ef4444);
+    color: #fff !important;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none !important;
+    box-shadow: 0 4px 16px rgba(245, 158, 11, 0.25);
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.email-link:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    text-decoration: none !important;
+}
+
+/* ─── Links ─── */
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+/* ─── Privacy Page ─── */
+.privacy-page {
+    padding: 50px 0;
+}
+
+.privacy-page h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    letter-spacing: -0.02em;
+}
+
+.privacy-page .effective-date {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 30px;
+}
+
+.privacy-page h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent-light);
+    margin: 28px 0 8px;
+}
+
+.privacy-page p {
+    font-size: 15px;
+    color: var(--text-muted);
+    line-height: 1.75;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+.back-link:hover {
+    color: var(--accent);
+}
+
+/* ─── Footer ─── */
+footer {
+    padding: 28px 0;
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--card-border);
+}
+
+footer p { margin: 4px 0; }
+
+footer a {
+    color: var(--text-muted);
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: var(--accent);
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 600px) {
+    header h1 { font-size: 28px; }
+    .content-box { padding: 28px 20px; }
+}
