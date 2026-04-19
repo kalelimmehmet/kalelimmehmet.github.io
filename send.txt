@@ -1,0 +1,70 @@
+
+Open your website builder (WordPress, Wix, Vercel, Carrd, however you built aristokrati.com).
+Create a new blank page and title it Privacy Policy. Copy and paste exactly what you have for Document 1 into there. Publish it so it lives at aristokrati.com/privacy.
+Create another blank page and title it Terms of Service. Copy and paste exactly what you have for Document 2 into there. Publish it so it lives at aristokrati.com/terms.
+Finally, just copy those two website URLs, go to App Store Connect, and paste the links into the required boxes.
+
+
+
+
+
+
+
+Document 1: Privacy Policy
+(Put this on your website at aristokrati.com/privacy and give this link to Apple)
+
+Effective Date: April 18, 2026
+
+ARISTOKRATI INC. ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed when you use the Bunny Lingo mobile software applications.
+
+1. Information We Collect We may collect information you provide directly to us when you create an account, such as your name and email address (via Google or Apple Sign-In). We also collect general usage data, engagement metrics (such as daily streaks), and diagnostic information (crash logs) to improve our services.
+
+2. How We Use Your Information We use the information we collect to provide, maintain, and improve our app's functionality, track user progression, and for service-related communications.
+
+3. Third-Party Services and Advertising Our application uses third-party advertising networks, specifically Google AdMob, to display ads. These third-party services use mobile advertising identifiers (such as Apple’s IDFA or Google’s Advertising ID) to collect device identifiers, IP addresses, and general usage data to serve personalized advertising based on your interests. We do not sell your personal account information to these third parties. For more information, please review Google’s Privacy Policy and partner sites policy: https://policies.google.com/technologies/partner-sites.
+
+4. Your Choices Regarding Ads and Tracking Depending on your device, you can control how your data is used for personalized advertising. On iOS devices, our app will request your permission to track your activity to deliver personalized ads (App Tracking Transparency). If you select "Ask App Not to Track", you will still see ads, but they will not be tailored to your interests.
+
+5. Data Retention and Deletion We retain your personal information only for as long as your account is active. You have the right to request the deletion of your account and associated personal data at any time by contacting us using the information below.
+
+6. Contact Us If you have questions about this Privacy Policy, or wish to request the deletion of your data, please contact us at: 
+
+info@aristokrati.com
+
+Document 2: Terms of Service (Terms of Use)
+(Put this entirely separate text on your website at aristokrati.com/terms)
+
+Effective Date: April 18, 2026
+
+These Terms of Service ("Terms") govern your access to and use of the mobile software applications developed by ARISTOKRATI INC. ("we," "our," or "us"). By downloading, accessing, or using our application, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the application.
+
+1. Assumption of Risk and "As Is" Service The application is provided "AS IS" and "AS AVAILABLE" without warranties of any kind, whether express or implied. We do not guarantee that the app will be uninterrupted, error-free, or entirely secure. Your use of this application is entirely at your own risk.
+
+2. Limitation of Liability TO THE MAXIMUM EXTENT PERMITTED BY LAW, ARISTOKRATI INC. SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF DATA, OPPORTUNITIES, OR PROFITS ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE APPLICATION. You agree that in no event will our total liability to you for all claims related to the application exceed the amount you paid us, if any, to use the application.
+
+3. User Accounts and Data While we strive to keep your data secure (such as your flashcards and streaks), we are not a guaranteed data backup service. You are solely responsible for maintaining the confidentiality of your account credentials. We reserve the right to suspend, terminate, or delete your account and associated data at any time, for any reason, with or without notice.
+
+4. Intellectual Property All content, features, and functionality of the application (including text, graphics, logos, and code) are the exclusive property of ARISTOKRATI INC. or its licensors. You may not copy, modify, distribute, or reverse-engineer any part of the application.
+
+5. Third-Party Services The application utilizes third-party services, such as Google AdMob for advertising. Your interaction with any third-party content or advertisements is solely between you and the third party. We are not responsible for the content, privacy policies, or practices of any third-party services.
+
+6. Changes to These Terms We reserve the right to modify these Terms at any time. If we make material changes, we will attempt to provide notice before any new terms take effect. By continuing to use the application after the changes become effective, you agree to the new Terms.
+
+7. Governing Law These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which ARISTOKRATI INC. is registered, without regard to its conflict of law provisions.
+
+8. Contact Us If you have any questions about these Terms, please contact us at: 
+
+info@aristokrati.com"
+
+
+
+
+
+
+
+
+
+
+I NEED THESE 
+Privacy Policy: As discussed, you must generate one. Since you collect emails and names via Google/Apple Sign-In, it is federally required.
+Terms of Use: This acts as your legal shield. If your app crashes and someone tries to sue you, this is the document that says "You use this app at your own risk."

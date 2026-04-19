@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-    --bg-top: #0f172a;
-    --bg-bottom: #1e1b4b;
-    --card-bg: rgba(255, 255, 255, 0.06);
-    --card-border: rgba(255, 255, 255, 0.1);
-    --accent: #f59e0b;        /* warm amber */
-    --accent-light: #fde68a;
-    --text: #f1f5f9;
-    --text-muted: #94a3b8;
+    --bg-top: #1a1a1a;
+    --bg-bottom: #0d0d0d;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --accent: #e50914;
+    --accent-light: #ff4a4a;
+    --text: #ffffff;
+    --text-muted: #a3a3a3;
     --max-width: 780px;
 }
 
@@ -54,12 +54,12 @@ header {
     width: 64px;
     height: 64px;
     border-radius: 18px;
-    background: linear-gradient(135deg, var(--accent), #ef4444);
+    background: linear-gradient(135deg, var(--accent), #b80710);
     font-size: 28px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 20px;
-    box-shadow: 0 8px 32px rgba(245, 158, 11, 0.3);
+    box-shadow: 0 8px 32px rgba(229, 9, 20, 0.3);
 }
 
 header h1 {
@@ -141,13 +141,13 @@ main {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background: linear-gradient(135deg, var(--accent), #ef4444);
+    background: linear-gradient(135deg, var(--accent), #b80710);
     color: #fff !important;
     border-radius: 10px;
     font-weight: 600;
     font-size: 15px;
     text-decoration: none !important;
-    box-shadow: 0 4px 16px rgba(245, 158, 11, 0.25);
+    box-shadow: 0 4px 16px rgba(229, 9, 20, 0.25);
     transition: opacity 0.2s, transform 0.2s;
 }
 
